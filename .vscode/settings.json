@@ -1,0 +1,25 @@
+{
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.project.sourcePaths": ["demo/src/main/java"],
+    "java.project.outputPath": "demo/target/classes",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar"
+    ],
+    "java.test.config": {
+        "name": "junit-config",
+        "workingDirectory": "${workspaceFolder}/demo",
+        "classpaths": [
+            "${workspaceFolder}/demo/target/classes",
+            "${workspaceFolder}/demo/target/test-classes"
+        ]
+    },
+    "maven.executable.path": "mvn",
+    "java.compile.nullAnalysis.mode": "automatic",
+    "files.exclude": {
+        "**/target": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    }
+}
